@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7514092421080A0300133C49 /* GesutreRespndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7514092321080A0300133C49 /* GesutreRespndViewController.swift */; };
+		7514092721081E9D00133C49 /* GestureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7514092621081E9C00133C49 /* GestureHelper.swift */; };
 		753B545421073396004977E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753B545321073396004977E3 /* AppDelegate.swift */; };
 		753B545921073396004977E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753B545721073396004977E3 /* Main.storyboard */; };
 		753B545B21073398004977E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753B545A21073398004977E3 /* Assets.xcassets */; };
 		753B546621073399004977E3 /* GestureHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753B546521073399004977E3 /* GestureHelperTests.swift */; };
 		753B547121073399004977E3 /* GestureHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753B547021073399004977E3 /* GestureHelperUITests.swift */; };
-		753B547F210733B1004977E3 /* GestureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753B547E210733B0004977E3 /* GestureHelper.swift */; };
 		753B548321073582004977E3 /* GestureBasicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753B548221073582004977E3 /* GestureBasicTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		7514092321080A0300133C49 /* GesutreRespndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesutreRespndViewController.swift; sourceTree = "<group>"; };
+		7514092621081E9C00133C49 /* GestureHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureHelper.swift; sourceTree = "<group>"; };
 		753B545021073396004977E3 /* GestureHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		753B545321073396004977E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		753B545821073396004977E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		753B546C21073399004977E3 /* GestureHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		753B547021073399004977E3 /* GestureHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureHelperUITests.swift; sourceTree = "<group>"; };
 		753B547221073399004977E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		753B547E210733B0004977E3 /* GestureHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureHelper.swift; sourceTree = "<group>"; };
 		753B548221073582004977E3 /* GestureBasicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureBasicTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7514092521081E9C00133C49 /* GestureHelper */ = {
+			isa = PBXGroup;
+			children = (
+				7514092621081E9C00133C49 /* GestureHelper.swift */,
+			);
+			path = GestureHelper;
+			sourceTree = "<group>";
+		};
 		753B544721073396004977E3 = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +107,7 @@
 		753B545221073396004977E3 /* GestureHelper */ = {
 			isa = PBXGroup;
 			children = (
-				753B547E210733B0004977E3 /* GestureHelper.swift */,
+				7514092521081E9C00133C49 /* GestureHelper */,
 				753B545321073396004977E3 /* AppDelegate.swift */,
 				753B548221073582004977E3 /* GestureBasicTableViewController.swift */,
 				7514092321080A0300133C49 /* GesutreRespndViewController.swift */,
@@ -259,8 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				753B548321073582004977E3 /* GestureBasicTableViewController.swift in Sources */,
-				753B547F210733B1004977E3 /* GestureHelper.swift in Sources */,
 				753B545421073396004977E3 /* AppDelegate.swift in Sources */,
+				7514092721081E9D00133C49 /* GestureHelper.swift in Sources */,
 				7514092421080A0300133C49 /* GesutreRespndViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

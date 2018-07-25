@@ -2,7 +2,7 @@
 //  GestureHelper.swift
 //  GestureHelper
 //
-//  Created by TianGeng on 2018/7/23.
+//  Created by AZ on 2018/7/23.
 //
 
 import UIKit
