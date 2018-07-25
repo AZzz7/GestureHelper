@@ -6,7 +6,10 @@ mGestureHelper = GestureHelper.init(targetView: self.view, [.G_SELECT_TAP,.G_MEN
 mGestureHelper?.gestureDelegate = self
 
 add implementation the GestureHelperDelegate 
+
     // BASIC GESTURES
+    
+    
     func didSelectTappGesture() {
     
     }
